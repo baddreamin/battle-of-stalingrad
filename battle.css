@@ -1,22 +1,27 @@
 .container{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .para{
     width: 1000px;
-    font-size: 25px;
-}
-.head{
-    font-size: 50px;
+    font-size: 23px;
 }
 body{
-    background-color: rgb(240, 193, 123) ;
+    background-color: rgb(227, 227, 227) ;
 }
 header{
-    background-image: url("https://sundayguardianlive.com/wp-content/uploads/2023/02/Pic-1-or-Achala-Moulik.jpg");
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-image: url("meow.jpg");
     color: rgb(255, 0, 0);
     font:bolder;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
 }
